@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon Book Store</title>
+</head>
+
+<body bgcolor="cyan">
+
+<center>
+
+    <h1>📚 Welcome to AMAZON BOOK STORE 📚</h1>
+
+    <h3>Online Book Store</h3>
+
+    <p>Buy your favorite books online</p>
+
+    <button onclick="window.location.href='Login.html'">
+        Shop for Books
+    </button>
+
+</center>
+
+</body>
+</html>
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+
+<body bgcolor="lightcyan">
+
+<center>
+
+    <h1>AMAZON BOOK STORE</h1>
+    <h2>User Login</h2>
+
+    <label>Username:</label>
+    <input type="text" placeholder="Enter Username">
+
+    <br><br>
+
+    <label>Password:</label>
+    <input type="password" placeholder="Enter Password">
+
+    <br><br>
+
+    <button onclick="window.location.href='Profile.html'">
+        Login
+    </button>
+
+    <br><br>
+
+    <h3>New User?</h3>
+
+    <button onclick="window.location.href='Profile.html'">
+        Register
+    </button>
+
+</center>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Profile</title>
+</head>
+
+<body bgcolor="lightyellow">
+
+<center>
+
+    <h1>User Profile</h1>
+
+    <form>
+
+        <label>Name:</label>
+        <input type="text" placeholder="Enter Name">
+
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter Email">
+
+        <br><br>
+
+        <label>Mobile:</label>
+        <input type="text" placeholder="Enter Mobile Number">
+
+        <br><br>
+
+        <label>Address:</label>
+        <textarea placeholder="Enter Address"></textarea>
+
+        <br><br>
+
+    </form>
+
+    <button onclick="window.location.href='Books.html'">
+        Continue to Books
+    </button>
+
+</center>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Books Catalog</title>
+</head>
+
+<body bgcolor="white">
+
+<center>
+
+    <h1>📚 BOOKS CATALOG 📚</h1>
+
+    <table border="1" cellpadding="15">
+
+        <tr>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>Action</th>
+        </tr>
+
+        <tr>
+            <td>Java Programming</td>
+            <td>James Gosling</td>
+            <td>₹500</td>
+            <td>
+                <button onclick="window.location.href='Cart.html'">
+                    Add to Cart
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Python Programming</td>
+            <td>Mark Lutz</td>
+            <td>₹450</td>
+            <td>
+                <button onclick="window.location.href='Cart.html'">
+                    Add to Cart
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Web Development</td>
+            <td>Jon Duckett</td>
+            <td>₹600</td>
+            <td>
+                <button onclick="window.location.href='Cart.html'">
+                    Add to Cart
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Data Structures</td>
+            <td>Thomas Cormen</td>
+            <td>₹700</td>
+            <td>
+                <button onclick="window.location.href='Cart.html'">
+                    Add to Cart
+                </button>
+            </td>
+        </tr>
+
+    </table>
+
+</center>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Cart</title>
+</head>
+
+<body bgcolor="lightcyan">
+
+<center>
+
+    <h1>🛒 Shopping Cart</h1>
+
+    <table border="1" cellpadding="15">
+
+        <tr>
+            <th>Book</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+        </tr>
+
+        <tr>
+            <td>Java Programming</td>
+            <td>₹500</td>
+            <td>1</td>
+            <td>₹500</td>
+        </tr>
+
+    </table>
+
+    <h3>Total Amount: ₹500</h3>
+
+    <button onclick="window.location.href='Payment.html'">
+        Proceed to Payment
+    </button>
+
+</center>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment</title>
+</head>
+
+<body bgcolor="lightyellow">
+
+<center>
+
+    <h1>💳 Credit Card Payment</h1>
+
+    <label>Card Holder Name:</label>
+    <input type="text">
+
+    <br><br>
+
+    <label>Card Number:</label>
+    <input type="text" placeholder="XXXX XXXX XXXX XXXX">
+
+    <br><br>
+
+    <label>Expiry Date:</label>
+    <input type="text" placeholder="MM/YY">
+
+    <br><br>
+
+    <label>CVV:</label>
+    <input type="password" maxlength="3">
+
+    <br><br>
+
+    <button onclick="window.location.href='Confirmation.html'">
+        Pay Now
+    </button>
+
+</center>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Confirmation</title>
+</head>
+
+<body bgcolor="lightgreen">
+
+<center>
+
+    <h1>🎉 ORDER CONFIRMED 🎉</h1>
+
+    <h2>Thank You for Shopping!</h2>
+
+    <p>Your order has been successfully placed.</p>
+
+    <p>Your book will be delivered soon.</p>
+
+    <button onclick="window.location.href='Main.html'">
+        Back to Home
+    </button>
+
+</center>
+
+</body>
+</html>
